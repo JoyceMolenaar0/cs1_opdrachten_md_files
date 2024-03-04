@@ -4,12 +4,16 @@ namespace VariableOpdracht2
 {
     internal class TwitchStream
     {
+
         //maak hier class variables aan:
-        // type=string, naam: name,
-        // type=string, naam: lastStreamName
-        // type=Game, naam: streamGame
-        // type=int, naam: followers
+
+
+        internal Game streamGame;
+        internal string LastStreamName;
+        internal string name;
+        internal int followers;
+        internal bool automod;
         // type=bool, naam: automod
-        
+
     }
 }
